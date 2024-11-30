@@ -1,0 +1,80 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 20px;
+}
+
+#food-menu {
+    padding: 20px;
+}
+
+.food-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.food-item {
+    width: 200px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.food-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#contact {
+    background-color: #ffefd5;
+    padding: 20px;
+}
+
+#card-service {
+    padding: 20px;
+}
+
+#payment-form {
+    max-width: 300px;
+    margin: auto;
+    text-align: left;
+}
+
+#payment-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
